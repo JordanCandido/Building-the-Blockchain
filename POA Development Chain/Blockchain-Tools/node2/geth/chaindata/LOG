@@ -1,0 +1,38 @@
+=============== Sep 14, 2021 (EDT) ===============
+21:19:05.788727 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:19:05.792716 db@open opening
+21:19:05.794711 version@stat F·[] S·0B[] Sc·[]
+21:19:05.796707 db@janitor F·2 G·0
+21:19:05.797704 db@open done T·3.9903ms
+21:19:05.814658 db@close closing
+21:19:05.815654 db@close done T·996.6µs
+=============== Sep 14, 2021 (EDT) ===============
+21:33:42.986841 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:33:42.986841 version@stat F·[] S·0B[] Sc·[]
+21:33:42.986841 db@open opening
+21:33:42.987837 journal@recovery F·1
+21:33:42.994818 journal@recovery recovering @1
+21:33:42.998807 memdb@flush created L0@2 N·622 S·50KiB "\x02d\xfc..\x19Ba,v429":"\xfe\x88\xcf..H\xef\xcc,v362"
+21:33:43.005815 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+21:33:43.011774 db@janitor F·3 G·0
+21:33:43.011774 db@open done T·24.9333ms
+=============== Sep 16, 2021 (EDT) ===============
+19:08:22.919358 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:08:22.923346 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+19:08:22.923346 db@open opening
+19:08:22.924344 journal@recovery F·1
+19:08:22.931325 journal@recovery recovering @3
+19:08:22.937310 memdb@flush created L0@5 N·2 S·241B "Dat..ion,v624":"Las..der,v625"
+19:08:22.943293 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+19:08:22.951271 db@janitor F·4 G·0
+19:08:22.951271 db@open done T·27.9252ms
+=============== Sep 28, 2021 (EDT) ===============
+17:20:41.980251 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:20:41.984241 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+17:20:41.984241 db@open opening
+17:20:41.984241 journal@recovery F·1
+17:20:41.991221 journal@recovery recovering @6
+17:20:41.999201 memdb@flush created L0@8 N·1502 S·72KiB "\tɁ..\xbc6\x06,v1572":"\xff\xb18..\xfbTu,v1998"
+17:20:42.007178 version@stat F·[3] S·123KiB[123KiB] Sc·[0.75]
+17:20:42.013164 db@janitor F·5 G·0
+17:20:42.013164 db@open done T·28.9224ms
